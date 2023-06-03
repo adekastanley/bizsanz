@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+li, a {
+    color: black;
+}
+.nav-link {
+    color: black;
+}
 
 @media screen and (min-width:992px){
     .nav-item {
@@ -22,6 +28,10 @@
     position: relative;
     display: flex;
     justify-content: center;
+    background-image: url('./images/OQ5KAW0.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    
   }
   .hero-text {
