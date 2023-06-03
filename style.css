@@ -164,7 +164,13 @@ nav {
     justify-content: center;
     align-items: center;
     height: 5vh;
+
   }
+  footer p{
+    text-align: center;
+
+  }
+
 
   /* For tablets */
 /* @media (min-width: 481px) and (max-width: 768px) {
@@ -206,6 +212,12 @@ nav {
       }
       .section-4 .contact-wrapper{
         padding: 0 20%;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
       }
     
   }
