@@ -32,6 +32,7 @@ li, a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* clip-path: polygon(20% 0%, 77% 0, 100% 20%, 100% 100%, 0 100%, 0% 20%); */
    
   }
   .hero-text {
@@ -40,6 +41,22 @@ li, a {
     top: 40%;
   }
   .hero-text h1, h2 {
+    text-align: center;
+  }
+
+  .section-2, .section-3 {
+    height: 60dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .section-2 {
+    height: 60dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .section-2 p {
     text-align: center;
   }
 
