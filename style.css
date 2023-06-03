@@ -2,13 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+
 li, a {
     color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2 , h3 {
+    font-family: 'Poppins', sans-serif; 
+}
+p {
+    font-family: 'Open Sans', sans-serif;   
 }
 .nav-link {
-    color: black;
-}
+    color:black;
+};
 
 @media screen and (min-width:992px){
     .nav-item {
@@ -16,12 +30,17 @@ li, a {
     }
   }
 
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
 
   main {
 }
 
 .hero {
-      padding: 0;
+    padding: 0;
     margin: 0;
     height: 100dvh;
     background-color: grey;
@@ -32,13 +51,20 @@ li, a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* opacity: 0; */
     /* clip-path: polygon(20% 0%, 77% 0, 100% 20%, 100% 100%, 0 100%, 0% 20%); */
    
   }
+  .hero-up {
+    font-weight: bold;
+    font-size: 50px;
+  }
   .hero-text {
-    
+
     position: absolute;
     top: 40%;
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
   }
   .hero-text h1, h2 {
     text-align: center;
@@ -145,7 +171,7 @@ li, a {
     
     .hero-text {
         text-align: center;
-        top: 20%;
+        top: 40%;
 
       }
 
