@@ -59,6 +59,35 @@ li, a {
   .section-2 p {
     text-align: center;
   }
+  .section-3 {
+    background-color: grey;
+    /* width: 100vw; */
+  }
+  .section-3 .services {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+  }
+  .section-3 .services i{
+
+    font-size: 30px;
+    
+  }
+  .section-3 .services h3{
+
+    font-size: 10px;
+    
+  }
+  .section-3 .service {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
 
   /* For tablets */
@@ -87,6 +116,17 @@ li, a {
         text-align: center;
         top: 20%;
 
+      }
+
+      .section-3 .services i{
+
+        font-size: 30px;
+        
+      }
+      .section-3 .services h3{
+    
+        font-size: 30px;
+        
       }
     
   }
