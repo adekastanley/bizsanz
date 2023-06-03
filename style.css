@@ -1,9 +1,65 @@
-li, a {
-    color: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-#fab {
-    color: black;
+
+@media screen and (min-width:992px){
+    .nav-item {
+    line-height:80px;
+    }
+  }
+
+
+  main {
 }
-header {
-    background-color: red;
-}
+
+.hero {
+      padding: 0;
+    margin: 0;
+    height: 100dvh;
+    background-color: grey;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .hero-text {
+    
+    position: absolute;
+    top: 40%;
+  }
+  .hero-text h1, h2 {
+    text-align: center;
+  }
+
+
+  /* For tablets */
+/* @media (min-width: 481px) and (max-width: 768px) {
+    .hero {
+
+    }
+    .hero-text {
+        position: absolute;
+        bottom: 70%;
+        background-color: yellow;
+
+    }
+    
+} */
+
+
+/* For PCs */
+@media (min-width: 769px) {
+    .hero {
+        /* align-items: center; */
+        
+    }
+    
+    .hero-text {
+        text-align: center;
+        top: 20%;
+
+      }
+    
+  }
