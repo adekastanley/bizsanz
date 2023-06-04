@@ -37,6 +37,7 @@ header {
 }
 nav {
     height: 12vh;
+    background-color: #003554;
 
 }
   main {
@@ -59,6 +60,7 @@ nav {
     /* clip-path: polygon(20% 0%, 77% 0, 100% 20%, 100% 100%, 0 100%, 0% 20%); */
    
   }
+
   .hero-up {
     font-weight: bold;
     font-size: 50px;
@@ -73,8 +75,21 @@ nav {
   .hero-text h1, h2 {
     text-align: center;
   }
+.dividers {
+    position: absolute;
+    bottom: -1%;
+    /* height: 10%; */
+    width: 100%;
+    z-index: 0;
+
+}
+.section-svg-3 {
+    /* height: 2rem; */
+    width: 100%;
+}
 
   .section-2, .section-3, .section-4 {
+    position: relative;
     height: 60dvh;
     display: flex;
     justify-content: center;
@@ -100,6 +115,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    z-index: 1;
     /* width: 100vw; */
   }
 
