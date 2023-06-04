@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    /* outline: 4px solid purple; */
+
 }
 
 /* 
@@ -58,7 +60,7 @@ nav {
 .hero {
     padding: 0;
     margin: 0;
-    height: 100dvh;
+    height: 100vh;
     background-color: grey;
     position: relative;
     display: flex;
@@ -67,7 +69,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: all ease .5s;
+    transition: all ease .5s;   
     /* opacity: 0; */
     /* clip-path: polygon(20% 0%, 77% 0, 100% 20%, 100% 100%, 0 100%, 0% 20%); */
    
@@ -93,6 +95,7 @@ nav {
     /* height: 10%; */
     width: 100%;
     z-index: 0;
+    overflow: hidden;
 
 }
 .dividers-top {
@@ -114,6 +117,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
   }
   /* .section-2 {
     height: 60dvh;
