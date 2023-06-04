@@ -36,8 +36,18 @@ header {
     z-index: 4;
 }
 nav {
-    height: 12vh;
+    /* height: 4rem; */
+    /* padding: 15rem 0; */
     background-color: #003554;
+
+}
+.navbar-toggler{
+    outline: none;
+    
+}
+.navbar-toggler:hover,.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
 
 }
   main {
@@ -78,6 +88,14 @@ nav {
 .dividers {
     position: absolute;
     bottom: -1%;
+    /* height: 10%; */
+    width: 100%;
+    z-index: 0;
+
+}
+.dividers-top {
+    position: absolute;
+    top: -1%;
     /* height: 10%; */
     width: 100%;
     z-index: 0;
@@ -206,6 +224,12 @@ nav {
 
 /* For PCs */
 @media (min-width: 769px) {
+    nav {
+        height: 8rem;
+        /* padding: 15rem 0; */
+        background-color: #003554;
+    
+    }
     .hero {
         /* align-items: center; */
         
