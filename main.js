@@ -80,7 +80,7 @@ sec2.from('.section-3 .dividers-top', {
     scrollTrigger: {
       trigger: '.section-3',
       start: 'top center',
-      end: 'bottom 90%',
+      end: 'bottom 95%',
       scrub: true
     }
   });

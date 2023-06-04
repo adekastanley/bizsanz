@@ -117,7 +117,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   /* .section-2 {
     height: 60dvh;
@@ -129,11 +129,19 @@ nav {
     text-align: center;
   }
   .section-3 {
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: url('./images/shake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
     /* width: 100vw; */
   }
+  .section-3 h3{
+    font-size: 14px;
+  }
   .section-3-wrapper {
-    background-color: rgba(128, 128, 128, 0.574);
+    /* background-color: rgba(128, 128, 128, 0.574); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +154,7 @@ nav {
   .section-3 .services {
     /* background-color: red; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -159,7 +167,8 @@ nav {
   }
   .section-3 .services h3{
 
-    font-size: 10px;
+    font-size: 20px;
+    font-weight: bold;
     
   }
   .section-3 .service {
@@ -255,7 +264,8 @@ nav {
       }
       .section-3 .services h3{
     
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: bold;
         
       }
       .section-4 .contact-wrapper{
