@@ -19,6 +19,14 @@ tl.from('header', {
 tl.from('header .nav-link', {
     y: -20,
     opacity: 0,
+    stagger: .1,
+    ease: 'circ',
+    duration: .3
+    
+})
+tl.from('.hero-svg', {
+   
+    opacity: 0,
     stagger: 1,
     ease: 'back',
     duration: .3
