@@ -199,6 +199,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 5vh;
+    margin-top: 2rem;
 
   }
   footer p{
@@ -259,6 +260,8 @@ nav {
         justify-content: center;
         align-items: center;
         height: 5vh;
+        margin-top: 0;
       }
+
     
   }
